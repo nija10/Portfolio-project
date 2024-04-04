@@ -28,7 +28,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -41,7 +41,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -94,6 +94,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: 0.5s;
+}
+.btn-branding:hover {
+  background-color: var(--branding-color);
+  color: black;
+  transform: translateY(-2px);
 }
 
 .btn-branding-outline {
@@ -103,6 +109,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  color: black;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
 }
 
 .proj-desc {
@@ -170,7 +182,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
